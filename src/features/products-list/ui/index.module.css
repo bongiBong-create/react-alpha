@@ -1,0 +1,13 @@
+.product__list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-rows: 520px;
+  gap: 20px;
+  margin: 50px auto;
+}
+
+.product__list .description {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

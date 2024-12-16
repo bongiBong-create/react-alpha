@@ -1,0 +1,15 @@
+.products__filter {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 50px;
+}
+
+.filter__btn {
+  background: transparent;
+  border: 0;
+  font-size: 20px;
+  border: 1px solid #000;
+  border-radius: 8px;
+  padding: 10px;
+  cursor: pointer;
+}

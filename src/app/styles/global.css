@@ -1,0 +1,38 @@
+@font-face {
+  font-family: "sus";
+  src: url("../fonts/SuisseIntl-Book.otf");
+}
+
+* {
+  font-family: "sus";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+}
+
+ul, ol, li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
+  display: block;
+  gap: 10px;
+}
+
+section {
+  padding: 20px;
+}
+
+button {
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+}

@@ -1,0 +1,11 @@
+.header {
+  padding: 10px;
+}
+
+.header__nav {
+  display: flex;
+  padding: 20px 10px;
+  align-items: center;
+  justify-content: start;
+  gap: 20px;
+}
